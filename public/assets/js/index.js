@@ -16,4 +16,10 @@ const handleLogoutClick = () => {
   // on success window location to /
 };
 
+const handleCommentSubmit = () => {
+  // POST request with comment message
+  // /api/posts/{postId}/comments
+  // on success window location to /posts/{postId}
+};
+
 console.log("client-side JS");
