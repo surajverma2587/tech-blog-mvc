@@ -22,4 +22,10 @@ const handleCommentSubmit = () => {
   // on success window location to /posts/{postId}
 };
 
+const handlePostSubmit = () => {
+  // POST request with title and body
+  // /api/posts
+  // on success window location to /dashboard
+};
+
 console.log("client-side JS");
